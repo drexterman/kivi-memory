@@ -104,7 +104,15 @@ Expected behaviour is DuckDB, an evidence-backed causal explanation, and abstent
 
 ## 6. Import a corpus
 
-The importer uses the running HTTP API:
+To import a corpus and see the creation of memeories, use this
+The importer uses the running HTTP API, so terminate any running sessions and then:
+
+```bash
+python -m scripts.reset_db
+python -m scripts.init_db
+uvicorn app.main:app --reload
+```
+In another terminal execute this:
 
 ```bash
 python scripts/import_corpus.py corpus/dev_30.jsonl
@@ -112,7 +120,7 @@ python scripts/import_corpus.py corpus/dev_30.jsonl
 
 For a larger corpus, pass the corresponding JSONL file using the same command format.
 
-The importer creates transcripts and invokes memory processing for each record.
+The importer creates transcripts and invokes memory processing for each record which can be seen in the **Your Memory** tab.
 
 ## 7. Run evaluation
 For evaluation terminate any running session, clear the memory and restart using 
@@ -129,9 +137,13 @@ With the server running, in another terminal evalute using:
 python scripts/evaluate_corpus.py
 ```
 
-The script accepts a corpus path in the current checkout, use --file flag to supply your own corpus in .jsonl format.
+The script accepts a corpus path in the current checkout, use ```--file CORPUS_FILE_PATH``` flag to supply your own corpus in .jsonl format.
 
-The evaluation should be run against a fresh database when measuring a complete corpus from scratch. Preserve the resulting report as an artifact of the submitted evaluation run.
+The evaluation should be run against a fresh database when measuring a complete corpus from scratch. You can access the generated repo in ```evaluation/results.```
+
+If you have an expected json file which contains expeceted answers for your corpus in the format of ```corpus/dev_30_expected.json```, use ```--expected EXPECTED_FILE_PATH```
+
+A larger evaluation corpus is there in ```corpus/eval_500.jsonl``` and it's evaluation results are already stored in ```evaluation/precomputed_results```
 
 ## 8. Inspect state
 

@@ -473,7 +473,7 @@ def markdown_report(report: dict[str, Any]) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--file", required=True, help="Path to JSONL corpus",default="corpus/dev_30.jsonl")
+    parser.add_argument("--file",help="Path to JSONL corpus",default="corpus/dev_30.jsonl")
     parser.add_argument("--base-url", default="http://127.0.0.1:8000")
     parser.add_argument(
         "--expected",
