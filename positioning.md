@@ -1,0 +1,3 @@
+# Product Positioning Statement
+
+**For** knowledge workers who rely on dictation to capture daily work, **who** lose track of key decisions and context scattered across past transcripts, **Kivi is a** voice-first computing interface **that** synthesizes ongoing interactions into a persistent, evolving understanding across workflows. **Unlike** manual note-taking tools or passive transcript loggers, **Kivi** automatically distills durable facts, preferences, and episodes into fully traceable memories—strictly refusing to invent answers or store unverified inferences when history is incomplete.

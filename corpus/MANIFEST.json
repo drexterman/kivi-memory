@@ -1,0 +1,21 @@
+{
+  "records": 500,
+  "composition": {
+    "new_fact": 20,
+    "uncertain_change": 70,
+    "explicit_update": 20,
+    "repetition": 20,
+    "contextual": 70,
+    "preference": 10,
+    "preference_repeat": 20,
+    "preference_uncertain": 10,
+    "preference_paraphrase": 10,
+    "durable_fact": 80,
+    "repetition_paraphrase": 60,
+    "attribute_create": 30,
+    "attribute_update": 30,
+    "noise": 30,
+    "inference_trap": 20
+  },
+  "note": "Expected decisions are separate from the corpus and are never sent to Kivi."
+}

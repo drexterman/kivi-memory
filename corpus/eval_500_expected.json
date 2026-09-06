@@ -1,0 +1,2502 @@
+{
+  "eval-001": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Atlas"
+  },
+  "eval-002": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Atlas"
+  },
+  "eval-003": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Atlas"
+  },
+  "eval-004": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Atlas"
+  },
+  "eval-005": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Atlas"
+  },
+  "eval-006": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Beacon"
+  },
+  "eval-007": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Beacon"
+  },
+  "eval-008": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Beacon"
+  },
+  "eval-009": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Beacon"
+  },
+  "eval-010": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Beacon"
+  },
+  "eval-011": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Apollo"
+  },
+  "eval-012": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Apollo"
+  },
+  "eval-013": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Apollo"
+  },
+  "eval-014": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Apollo"
+  },
+  "eval-015": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Apollo"
+  },
+  "eval-016": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Orion"
+  },
+  "eval-017": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Orion"
+  },
+  "eval-018": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Orion"
+  },
+  "eval-019": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Orion"
+  },
+  "eval-020": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Orion"
+  },
+  "eval-021": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Nova"
+  },
+  "eval-022": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Nova"
+  },
+  "eval-023": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Nova"
+  },
+  "eval-024": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Nova"
+  },
+  "eval-025": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Nova"
+  },
+  "eval-026": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Mercury"
+  },
+  "eval-027": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Mercury"
+  },
+  "eval-028": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Mercury"
+  },
+  "eval-029": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Mercury"
+  },
+  "eval-030": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Mercury"
+  },
+  "eval-031": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Helios"
+  },
+  "eval-032": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Helios"
+  },
+  "eval-033": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Helios"
+  },
+  "eval-034": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Helios"
+  },
+  "eval-035": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Helios"
+  },
+  "eval-036": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Luna"
+  },
+  "eval-037": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Luna"
+  },
+  "eval-038": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Luna"
+  },
+  "eval-039": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Luna"
+  },
+  "eval-040": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Luna"
+  },
+  "eval-041": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Vega"
+  },
+  "eval-042": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Vega"
+  },
+  "eval-043": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Vega"
+  },
+  "eval-044": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Vega"
+  },
+  "eval-045": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Vega"
+  },
+  "eval-046": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Terra"
+  },
+  "eval-047": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Terra"
+  },
+  "eval-048": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Terra"
+  },
+  "eval-049": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Terra"
+  },
+  "eval-050": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Terra"
+  },
+  "eval-051": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Nimbus"
+  },
+  "eval-052": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Nimbus"
+  },
+  "eval-053": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Nimbus"
+  },
+  "eval-054": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Nimbus"
+  },
+  "eval-055": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Nimbus"
+  },
+  "eval-056": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Echo"
+  },
+  "eval-057": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Echo"
+  },
+  "eval-058": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Echo"
+  },
+  "eval-059": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Echo"
+  },
+  "eval-060": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Echo"
+  },
+  "eval-061": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Pulse"
+  },
+  "eval-062": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Pulse"
+  },
+  "eval-063": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Pulse"
+  },
+  "eval-064": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Pulse"
+  },
+  "eval-065": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Pulse"
+  },
+  "eval-066": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Quasar"
+  },
+  "eval-067": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Quasar"
+  },
+  "eval-068": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Quasar"
+  },
+  "eval-069": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Quasar"
+  },
+  "eval-070": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Quasar"
+  },
+  "eval-071": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Comet"
+  },
+  "eval-072": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Comet"
+  },
+  "eval-073": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Comet"
+  },
+  "eval-074": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Comet"
+  },
+  "eval-075": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Comet"
+  },
+  "eval-076": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Draco"
+  },
+  "eval-077": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Draco"
+  },
+  "eval-078": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Draco"
+  },
+  "eval-079": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Draco"
+  },
+  "eval-080": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Draco"
+  },
+  "eval-081": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Lyra"
+  },
+  "eval-082": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Lyra"
+  },
+  "eval-083": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Lyra"
+  },
+  "eval-084": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Lyra"
+  },
+  "eval-085": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Lyra"
+  },
+  "eval-086": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Sol"
+  },
+  "eval-087": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Sol"
+  },
+  "eval-088": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Sol"
+  },
+  "eval-089": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Sol"
+  },
+  "eval-090": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Sol"
+  },
+  "eval-091": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Artemis"
+  },
+  "eval-092": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Artemis"
+  },
+  "eval-093": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Artemis"
+  },
+  "eval-094": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Artemis"
+  },
+  "eval-095": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Artemis"
+  },
+  "eval-096": {
+    "expected_decision": "CREATE",
+    "category": "new_fact",
+    "cluster": "Polaris"
+  },
+  "eval-097": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "Polaris"
+  },
+  "eval-098": {
+    "expected_decision": "UPDATE",
+    "category": "explicit_update",
+    "cluster": "Polaris"
+  },
+  "eval-099": {
+    "expected_decision": "RETAIN",
+    "category": "repetition",
+    "cluster": "Polaris"
+  },
+  "eval-100": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "Polaris"
+  },
+  "eval-101": {
+    "expected_decision": "CREATE",
+    "category": "preference",
+    "cluster": "pref-0"
+  },
+  "eval-102": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-0"
+  },
+  "eval-103": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-0"
+  },
+  "eval-104": {
+    "expected_decision": "UNCERTAIN",
+    "category": "preference_uncertain",
+    "cluster": "pref-0"
+  },
+  "eval-105": {
+    "expected_decision": "RETAIN",
+    "category": "preference_paraphrase",
+    "cluster": "pref-0"
+  },
+  "eval-106": {
+    "expected_decision": "CREATE",
+    "category": "preference",
+    "cluster": "pref-1"
+  },
+  "eval-107": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-1"
+  },
+  "eval-108": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-1"
+  },
+  "eval-109": {
+    "expected_decision": "UNCERTAIN",
+    "category": "preference_uncertain",
+    "cluster": "pref-1"
+  },
+  "eval-110": {
+    "expected_decision": "RETAIN",
+    "category": "preference_paraphrase",
+    "cluster": "pref-1"
+  },
+  "eval-111": {
+    "expected_decision": "CREATE",
+    "category": "preference",
+    "cluster": "pref-2"
+  },
+  "eval-112": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-2"
+  },
+  "eval-113": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-2"
+  },
+  "eval-114": {
+    "expected_decision": "UNCERTAIN",
+    "category": "preference_uncertain",
+    "cluster": "pref-2"
+  },
+  "eval-115": {
+    "expected_decision": "RETAIN",
+    "category": "preference_paraphrase",
+    "cluster": "pref-2"
+  },
+  "eval-116": {
+    "expected_decision": "CREATE",
+    "category": "preference",
+    "cluster": "pref-3"
+  },
+  "eval-117": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-3"
+  },
+  "eval-118": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-3"
+  },
+  "eval-119": {
+    "expected_decision": "UNCERTAIN",
+    "category": "preference_uncertain",
+    "cluster": "pref-3"
+  },
+  "eval-120": {
+    "expected_decision": "RETAIN",
+    "category": "preference_paraphrase",
+    "cluster": "pref-3"
+  },
+  "eval-121": {
+    "expected_decision": "CREATE",
+    "category": "preference",
+    "cluster": "pref-4"
+  },
+  "eval-122": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-4"
+  },
+  "eval-123": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-4"
+  },
+  "eval-124": {
+    "expected_decision": "UNCERTAIN",
+    "category": "preference_uncertain",
+    "cluster": "pref-4"
+  },
+  "eval-125": {
+    "expected_decision": "RETAIN",
+    "category": "preference_paraphrase",
+    "cluster": "pref-4"
+  },
+  "eval-126": {
+    "expected_decision": "CREATE",
+    "category": "preference",
+    "cluster": "pref-5"
+  },
+  "eval-127": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-5"
+  },
+  "eval-128": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-5"
+  },
+  "eval-129": {
+    "expected_decision": "UNCERTAIN",
+    "category": "preference_uncertain",
+    "cluster": "pref-5"
+  },
+  "eval-130": {
+    "expected_decision": "RETAIN",
+    "category": "preference_paraphrase",
+    "cluster": "pref-5"
+  },
+  "eval-131": {
+    "expected_decision": "CREATE",
+    "category": "preference",
+    "cluster": "pref-6"
+  },
+  "eval-132": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-6"
+  },
+  "eval-133": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-6"
+  },
+  "eval-134": {
+    "expected_decision": "UNCERTAIN",
+    "category": "preference_uncertain",
+    "cluster": "pref-6"
+  },
+  "eval-135": {
+    "expected_decision": "RETAIN",
+    "category": "preference_paraphrase",
+    "cluster": "pref-6"
+  },
+  "eval-136": {
+    "expected_decision": "CREATE",
+    "category": "preference",
+    "cluster": "pref-7"
+  },
+  "eval-137": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-7"
+  },
+  "eval-138": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-7"
+  },
+  "eval-139": {
+    "expected_decision": "UNCERTAIN",
+    "category": "preference_uncertain",
+    "cluster": "pref-7"
+  },
+  "eval-140": {
+    "expected_decision": "RETAIN",
+    "category": "preference_paraphrase",
+    "cluster": "pref-7"
+  },
+  "eval-141": {
+    "expected_decision": "CREATE",
+    "category": "preference",
+    "cluster": "pref-8"
+  },
+  "eval-142": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-8"
+  },
+  "eval-143": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-8"
+  },
+  "eval-144": {
+    "expected_decision": "UNCERTAIN",
+    "category": "preference_uncertain",
+    "cluster": "pref-8"
+  },
+  "eval-145": {
+    "expected_decision": "RETAIN",
+    "category": "preference_paraphrase",
+    "cluster": "pref-8"
+  },
+  "eval-146": {
+    "expected_decision": "CREATE",
+    "category": "preference",
+    "cluster": "pref-9"
+  },
+  "eval-147": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-9"
+  },
+  "eval-148": {
+    "expected_decision": "RETAIN",
+    "category": "preference_repeat",
+    "cluster": "pref-9"
+  },
+  "eval-149": {
+    "expected_decision": "UNCERTAIN",
+    "category": "preference_uncertain",
+    "cluster": "pref-9"
+  },
+  "eval-150": {
+    "expected_decision": "RETAIN",
+    "category": "preference_paraphrase",
+    "cluster": "pref-9"
+  },
+  "eval-151": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-0"
+  },
+  "eval-152": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-1"
+  },
+  "eval-153": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-2"
+  },
+  "eval-154": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-3"
+  },
+  "eval-155": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-4"
+  },
+  "eval-156": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-5"
+  },
+  "eval-157": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-6"
+  },
+  "eval-158": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-7"
+  },
+  "eval-159": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-8"
+  },
+  "eval-160": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-9"
+  },
+  "eval-161": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-10"
+  },
+  "eval-162": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-11"
+  },
+  "eval-163": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-12"
+  },
+  "eval-164": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-13"
+  },
+  "eval-165": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-14"
+  },
+  "eval-166": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-15"
+  },
+  "eval-167": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-16"
+  },
+  "eval-168": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-17"
+  },
+  "eval-169": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-18"
+  },
+  "eval-170": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-19"
+  },
+  "eval-171": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-0"
+  },
+  "eval-172": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-1"
+  },
+  "eval-173": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-2"
+  },
+  "eval-174": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-3"
+  },
+  "eval-175": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-4"
+  },
+  "eval-176": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-5"
+  },
+  "eval-177": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-6"
+  },
+  "eval-178": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-7"
+  },
+  "eval-179": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-8"
+  },
+  "eval-180": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-9"
+  },
+  "eval-181": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-10"
+  },
+  "eval-182": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-11"
+  },
+  "eval-183": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-12"
+  },
+  "eval-184": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-13"
+  },
+  "eval-185": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-14"
+  },
+  "eval-186": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-15"
+  },
+  "eval-187": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-16"
+  },
+  "eval-188": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-17"
+  },
+  "eval-189": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-18"
+  },
+  "eval-190": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-19"
+  },
+  "eval-191": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-0"
+  },
+  "eval-192": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-1"
+  },
+  "eval-193": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-2"
+  },
+  "eval-194": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-3"
+  },
+  "eval-195": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-4"
+  },
+  "eval-196": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-5"
+  },
+  "eval-197": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-6"
+  },
+  "eval-198": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-7"
+  },
+  "eval-199": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-8"
+  },
+  "eval-200": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-9"
+  },
+  "eval-201": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-10"
+  },
+  "eval-202": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-11"
+  },
+  "eval-203": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-12"
+  },
+  "eval-204": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-13"
+  },
+  "eval-205": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-14"
+  },
+  "eval-206": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-15"
+  },
+  "eval-207": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-16"
+  },
+  "eval-208": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-17"
+  },
+  "eval-209": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-18"
+  },
+  "eval-210": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-19"
+  },
+  "eval-211": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-0"
+  },
+  "eval-212": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-1"
+  },
+  "eval-213": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-2"
+  },
+  "eval-214": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-3"
+  },
+  "eval-215": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-4"
+  },
+  "eval-216": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-5"
+  },
+  "eval-217": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-6"
+  },
+  "eval-218": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-7"
+  },
+  "eval-219": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-8"
+  },
+  "eval-220": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-9"
+  },
+  "eval-221": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-10"
+  },
+  "eval-222": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-11"
+  },
+  "eval-223": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-12"
+  },
+  "eval-224": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-13"
+  },
+  "eval-225": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-14"
+  },
+  "eval-226": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-15"
+  },
+  "eval-227": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-16"
+  },
+  "eval-228": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-17"
+  },
+  "eval-229": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-18"
+  },
+  "eval-230": {
+    "expected_decision": "CREATE",
+    "category": "durable_fact",
+    "cluster": "durable-19"
+  },
+  "eval-231": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-0"
+  },
+  "eval-232": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-1"
+  },
+  "eval-233": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-2"
+  },
+  "eval-234": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-3"
+  },
+  "eval-235": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-4"
+  },
+  "eval-236": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-5"
+  },
+  "eval-237": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-6"
+  },
+  "eval-238": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-7"
+  },
+  "eval-239": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-8"
+  },
+  "eval-240": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-9"
+  },
+  "eval-241": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-10"
+  },
+  "eval-242": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-11"
+  },
+  "eval-243": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-12"
+  },
+  "eval-244": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-13"
+  },
+  "eval-245": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-14"
+  },
+  "eval-246": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-15"
+  },
+  "eval-247": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-16"
+  },
+  "eval-248": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-17"
+  },
+  "eval-249": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-18"
+  },
+  "eval-250": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-19"
+  },
+  "eval-251": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-0"
+  },
+  "eval-252": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-1"
+  },
+  "eval-253": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-2"
+  },
+  "eval-254": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-3"
+  },
+  "eval-255": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-4"
+  },
+  "eval-256": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-5"
+  },
+  "eval-257": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-6"
+  },
+  "eval-258": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-7"
+  },
+  "eval-259": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-8"
+  },
+  "eval-260": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-9"
+  },
+  "eval-261": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-10"
+  },
+  "eval-262": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-11"
+  },
+  "eval-263": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-12"
+  },
+  "eval-264": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-13"
+  },
+  "eval-265": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-14"
+  },
+  "eval-266": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-15"
+  },
+  "eval-267": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-16"
+  },
+  "eval-268": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-17"
+  },
+  "eval-269": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-18"
+  },
+  "eval-270": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-19"
+  },
+  "eval-271": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-0"
+  },
+  "eval-272": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-1"
+  },
+  "eval-273": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-2"
+  },
+  "eval-274": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-3"
+  },
+  "eval-275": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-4"
+  },
+  "eval-276": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-5"
+  },
+  "eval-277": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-6"
+  },
+  "eval-278": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-7"
+  },
+  "eval-279": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-8"
+  },
+  "eval-280": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-9"
+  },
+  "eval-281": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-10"
+  },
+  "eval-282": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-11"
+  },
+  "eval-283": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-12"
+  },
+  "eval-284": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-13"
+  },
+  "eval-285": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-14"
+  },
+  "eval-286": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-15"
+  },
+  "eval-287": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-16"
+  },
+  "eval-288": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-17"
+  },
+  "eval-289": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-18"
+  },
+  "eval-290": {
+    "expected_decision": "RETAIN",
+    "category": "repetition_paraphrase",
+    "cluster": "repeat-19"
+  },
+  "eval-291": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-0"
+  },
+  "eval-292": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-0"
+  },
+  "eval-293": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-1"
+  },
+  "eval-294": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-1"
+  },
+  "eval-295": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-2"
+  },
+  "eval-296": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-2"
+  },
+  "eval-297": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-3"
+  },
+  "eval-298": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-3"
+  },
+  "eval-299": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-4"
+  },
+  "eval-300": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-4"
+  },
+  "eval-301": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-5"
+  },
+  "eval-302": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-5"
+  },
+  "eval-303": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-6"
+  },
+  "eval-304": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-6"
+  },
+  "eval-305": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-7"
+  },
+  "eval-306": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-7"
+  },
+  "eval-307": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-8"
+  },
+  "eval-308": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-8"
+  },
+  "eval-309": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-9"
+  },
+  "eval-310": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-9"
+  },
+  "eval-311": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-10"
+  },
+  "eval-312": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-10"
+  },
+  "eval-313": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-11"
+  },
+  "eval-314": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-11"
+  },
+  "eval-315": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-12"
+  },
+  "eval-316": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-12"
+  },
+  "eval-317": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-13"
+  },
+  "eval-318": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-13"
+  },
+  "eval-319": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-14"
+  },
+  "eval-320": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-14"
+  },
+  "eval-321": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-15"
+  },
+  "eval-322": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-15"
+  },
+  "eval-323": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-16"
+  },
+  "eval-324": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-16"
+  },
+  "eval-325": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-17"
+  },
+  "eval-326": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-17"
+  },
+  "eval-327": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-18"
+  },
+  "eval-328": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-18"
+  },
+  "eval-329": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-19"
+  },
+  "eval-330": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-19"
+  },
+  "eval-331": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-20"
+  },
+  "eval-332": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-20"
+  },
+  "eval-333": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-21"
+  },
+  "eval-334": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-21"
+  },
+  "eval-335": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-22"
+  },
+  "eval-336": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-22"
+  },
+  "eval-337": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-23"
+  },
+  "eval-338": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-23"
+  },
+  "eval-339": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-24"
+  },
+  "eval-340": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-24"
+  },
+  "eval-341": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-25"
+  },
+  "eval-342": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-25"
+  },
+  "eval-343": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-26"
+  },
+  "eval-344": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-26"
+  },
+  "eval-345": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-27"
+  },
+  "eval-346": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-27"
+  },
+  "eval-347": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-28"
+  },
+  "eval-348": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-28"
+  },
+  "eval-349": {
+    "expected_decision": "CREATE",
+    "category": "attribute_create",
+    "cluster": "change-29"
+  },
+  "eval-350": {
+    "expected_decision": "UPDATE",
+    "category": "attribute_update",
+    "cluster": "change-29"
+  },
+  "eval-351": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-0"
+  },
+  "eval-352": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-1"
+  },
+  "eval-353": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-2"
+  },
+  "eval-354": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-3"
+  },
+  "eval-355": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-4"
+  },
+  "eval-356": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-5"
+  },
+  "eval-357": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-6"
+  },
+  "eval-358": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-7"
+  },
+  "eval-359": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-8"
+  },
+  "eval-360": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-9"
+  },
+  "eval-361": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-0"
+  },
+  "eval-362": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-1"
+  },
+  "eval-363": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-2"
+  },
+  "eval-364": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-3"
+  },
+  "eval-365": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-4"
+  },
+  "eval-366": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-5"
+  },
+  "eval-367": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-6"
+  },
+  "eval-368": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-7"
+  },
+  "eval-369": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-8"
+  },
+  "eval-370": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-9"
+  },
+  "eval-371": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-0"
+  },
+  "eval-372": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-1"
+  },
+  "eval-373": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-2"
+  },
+  "eval-374": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-3"
+  },
+  "eval-375": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-4"
+  },
+  "eval-376": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-5"
+  },
+  "eval-377": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-6"
+  },
+  "eval-378": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-7"
+  },
+  "eval-379": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-8"
+  },
+  "eval-380": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-9"
+  },
+  "eval-381": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-0"
+  },
+  "eval-382": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-1"
+  },
+  "eval-383": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-2"
+  },
+  "eval-384": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-3"
+  },
+  "eval-385": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-4"
+  },
+  "eval-386": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-5"
+  },
+  "eval-387": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-6"
+  },
+  "eval-388": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-7"
+  },
+  "eval-389": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-8"
+  },
+  "eval-390": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-9"
+  },
+  "eval-391": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-0"
+  },
+  "eval-392": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-1"
+  },
+  "eval-393": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-2"
+  },
+  "eval-394": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-3"
+  },
+  "eval-395": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-4"
+  },
+  "eval-396": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-5"
+  },
+  "eval-397": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-6"
+  },
+  "eval-398": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-7"
+  },
+  "eval-399": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-8"
+  },
+  "eval-400": {
+    "expected_decision": "UNCERTAIN",
+    "category": "uncertain_change",
+    "cluster": "uncertain-9"
+  },
+  "eval-401": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-0"
+  },
+  "eval-402": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-1"
+  },
+  "eval-403": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-2"
+  },
+  "eval-404": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-3"
+  },
+  "eval-405": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-4"
+  },
+  "eval-406": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-5"
+  },
+  "eval-407": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-6"
+  },
+  "eval-408": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-7"
+  },
+  "eval-409": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-8"
+  },
+  "eval-410": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-9"
+  },
+  "eval-411": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-0"
+  },
+  "eval-412": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-1"
+  },
+  "eval-413": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-2"
+  },
+  "eval-414": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-3"
+  },
+  "eval-415": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-4"
+  },
+  "eval-416": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-5"
+  },
+  "eval-417": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-6"
+  },
+  "eval-418": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-7"
+  },
+  "eval-419": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-8"
+  },
+  "eval-420": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-9"
+  },
+  "eval-421": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-0"
+  },
+  "eval-422": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-1"
+  },
+  "eval-423": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-2"
+  },
+  "eval-424": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-3"
+  },
+  "eval-425": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-4"
+  },
+  "eval-426": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-5"
+  },
+  "eval-427": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-6"
+  },
+  "eval-428": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-7"
+  },
+  "eval-429": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-8"
+  },
+  "eval-430": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-9"
+  },
+  "eval-431": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-0"
+  },
+  "eval-432": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-1"
+  },
+  "eval-433": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-2"
+  },
+  "eval-434": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-3"
+  },
+  "eval-435": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-4"
+  },
+  "eval-436": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-5"
+  },
+  "eval-437": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-6"
+  },
+  "eval-438": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-7"
+  },
+  "eval-439": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-8"
+  },
+  "eval-440": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-9"
+  },
+  "eval-441": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-0"
+  },
+  "eval-442": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-1"
+  },
+  "eval-443": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-2"
+  },
+  "eval-444": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-3"
+  },
+  "eval-445": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-4"
+  },
+  "eval-446": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-5"
+  },
+  "eval-447": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-6"
+  },
+  "eval-448": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-7"
+  },
+  "eval-449": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-8"
+  },
+  "eval-450": {
+    "expected_decision": "CREATE",
+    "category": "contextual",
+    "cluster": "context-9"
+  },
+  "eval-451": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-0"
+  },
+  "eval-452": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-1"
+  },
+  "eval-453": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-2"
+  },
+  "eval-454": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-3"
+  },
+  "eval-455": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-4"
+  },
+  "eval-456": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-5"
+  },
+  "eval-457": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-0"
+  },
+  "eval-458": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-1"
+  },
+  "eval-459": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-2"
+  },
+  "eval-460": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-3"
+  },
+  "eval-461": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-4"
+  },
+  "eval-462": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-5"
+  },
+  "eval-463": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-0"
+  },
+  "eval-464": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-1"
+  },
+  "eval-465": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-2"
+  },
+  "eval-466": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-3"
+  },
+  "eval-467": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-4"
+  },
+  "eval-468": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-5"
+  },
+  "eval-469": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-0"
+  },
+  "eval-470": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-1"
+  },
+  "eval-471": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-2"
+  },
+  "eval-472": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-3"
+  },
+  "eval-473": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-4"
+  },
+  "eval-474": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-5"
+  },
+  "eval-475": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-0"
+  },
+  "eval-476": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-1"
+  },
+  "eval-477": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-2"
+  },
+  "eval-478": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-3"
+  },
+  "eval-479": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-4"
+  },
+  "eval-480": {
+    "expected_decision": "REJECT",
+    "category": "noise",
+    "cluster": "noise-5"
+  },
+  "eval-481": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-0"
+  },
+  "eval-482": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-1"
+  },
+  "eval-483": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-2"
+  },
+  "eval-484": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-3"
+  },
+  "eval-485": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-4"
+  },
+  "eval-486": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-5"
+  },
+  "eval-487": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-6"
+  },
+  "eval-488": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-7"
+  },
+  "eval-489": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-8"
+  },
+  "eval-490": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-9"
+  },
+  "eval-491": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-0"
+  },
+  "eval-492": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-1"
+  },
+  "eval-493": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-2"
+  },
+  "eval-494": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-3"
+  },
+  "eval-495": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-4"
+  },
+  "eval-496": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-5"
+  },
+  "eval-497": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-6"
+  },
+  "eval-498": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-7"
+  },
+  "eval-499": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-8"
+  },
+  "eval-500": {
+    "expected_decision": "REJECT",
+    "category": "inference_trap",
+    "cluster": "trap-9"
+  }
+}

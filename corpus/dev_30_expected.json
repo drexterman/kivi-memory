@@ -1,0 +1,122 @@
+{
+  "dev-001": {
+    "expected_decision": "CREATE",
+    "scenario": "FACT"
+  },
+  "dev-002": {
+    "expected_decision": "CREATE",
+    "scenario": "PREFERENCE"
+  },
+  "dev-003": {
+    "expected_decision": "CREATE",
+    "scenario": "EPISODE"
+  },
+  "dev-004": {
+    "expected_decision": "REJECT",
+    "scenario": "TRANSIENT"
+  },
+  "dev-005": {
+    "expected_decision": "RETAIN",
+    "scenario": "FACT_REINFORCEMENT"
+  },
+  "dev-006": {
+    "expected_decision": "UNCERTAIN",
+    "scenario": "PENDING_CHANGE"
+  },
+  "dev-007": {
+    "expected_decision": "UPDATE",
+    "scenario": "FACT_UPDATE"
+  },
+  "dev-008": {
+    "expected_decision": "CREATE",
+    "scenario": "FACT_UPDATE"
+  },
+  "dev-009": {
+    "expected_decision": "RETAIN",
+    "scenario": "FACT_REINFORCEMENT"
+  },
+  "dev-010": {
+    "expected_decision": "CREATE",
+    "scenario": "PREFERENCE"
+  },
+  "dev-011": {
+    "expected_decision": "CREATE",
+    "scenario": "EPISODE"
+  },
+  "dev-012": {
+    "expected_decision": "CREATE",
+    "scenario": "FACT"
+  },
+  "dev-013": {
+    "expected_decision": "CREATE",
+    "scenario": "FACT"
+  },
+  "dev-014": {
+    "expected_decision": "CREATE",
+    "scenario": "PREFERENCE"
+  },
+  "dev-015": {
+    "expected_decision": "CREATE",
+    "scenario": "EPISODE"
+  },
+  "dev-016": {
+    "expected_decision": "UNCERTAIN",
+    "scenario": "PENDING_CHANGE"
+  },
+  "dev-017": {
+    "expected_decision": "UPDATE",
+    "scenario": "FACT_UPDATE"
+  },
+  "dev-018": {
+    "expected_decision": "RETAIN",
+    "scenario": "FACT_REINFORCEMENT"
+  },
+  "dev-019": {
+    "expected_decision": "CREATE",
+    "scenario": "FACT"
+  },
+  "dev-020": {
+    "expected_decision": "CREATE",
+    "scenario": "EPISODE"
+  },
+  "dev-021": {
+    "expected_decision": "CREATE",
+    "scenario": "PREFERENCE"
+  },
+  "dev-022": {
+    "expected_decision": "REJECT",
+    "scenario": "TRANSIENT"
+  },
+  "dev-023": {
+    "expected_decision": "RETAIN",
+    "scenario": "FACT_REINFORCEMENT"
+  },
+  "dev-024": {
+    "expected_decision": "UNCERTAIN",
+    "scenario": "PENDING_CHANGE"
+  },
+  "dev-025": {
+    "expected_decision": "UPDATE",
+    "scenario": "FACT_UPDATE"
+  },
+  "dev-026": {
+    "expected_decision": "RETAIN",
+    "scenario": "FACT_REINFORCEMENT"
+  },
+  "dev-027": {
+    "expected_decision": "REJECT",
+    "scenario": "NOISE"
+  },
+  "dev-028": {
+    "expected_decision": "CREATE",
+    "scenario": "PREFERENCE"
+  },
+  "dev-029": {
+    "expected_decision": "UPDATE",
+    "scenario": "FACT_UPDATE"
+  },
+  "dev-030": {
+    "expected_decision": "UNCERTAIN",
+    "scenario": "PENDING_CHANGE"
+  }
+}

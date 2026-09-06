@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kivi — Remember what matters</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+<div class="shell">
+
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">K</div>
+      <div>
+        <strong>Kivi</strong>
+        <span>semantic memory</span>
+      </div>
+    </div>
+
+    <nav>
+      <button class="nav active" data-view="ask">
+        <span>✦</span> Hey Kivi
+      </button>
+
+      <button class="nav" data-view="memory">
+        <span>◈</span> Your Memory
+      </button>
+
+      <button class="nav" data-view="ingest">
+        <span>＋</span> Add context
+      </button>
+    </nav>
+
+    <div class="sidebar-note">
+      <b>Kivi remembers selectively.</b><br>
+      Durable facts, preferences and meaningful episodes — not every sentence.
+    </div>
+
+    <div class="sidebar-foot">
+      Selective · grounded · evolving
+    </div>
+  </aside>
+
+
+  <main>
+
+    <!-- HEY KIVI -->
+    <section id="ask" class="view active">
+
+      <div class="ask-wrap">
+
+        <div class="eyebrow">HEY KIVI</div>
+
+        <h1>
+          Ask about something<br>
+          <em>you've told me before.</em>
+        </h1>
+
+        <p class="lede">
+          Kivi searches your saved context, checks the evidence,
+          and tells you when it doesn't know.
+        </p>
+
+        <div class="composer">
+          <textarea
+            id="q"
+            rows="2"
+            placeholder="What database does Project Atlas use?"
+          ></textarea>
+
+          <div class="composer-bottom">
+            <span>↵ Ask your memory</span>
+            <button id="askbtn">Ask Kivi</button>
+          </div>
+        </div>
+
+        <div class="chips">
+          <button>What database does Project Atlas use?</button>
+          <button>Why did I choose DuckDB for Atlas?</button>
+          <button>What is my preferred report format?</button>
+          <button>What did we decide about Atlas?</button>
+        </div>
+
+      </div>
+
+      <div id="answer" class="answer-card hidden"></div>
+
+    </section>
+
+
+    <!-- YOUR MEMORY -->
+    <section id="memory" class="view">
+
+      <header class="page-head">
+
+        <div>
+          <div class="eyebrow">YOUR MEMORY</div>
+
+          <h2>What Kivi knows</h2>
+
+          <p>
+            Current memories are shown first.
+            Every memory keeps its evidence and history.
+          </p>
+        </div>
+
+        <button class="secondary" id="refresh">
+          Refresh
+        </button>
+
+      </header>
+
+
+      <div class="memory-tools">
+
+        <div class="searchbox">
+          ⌕
+          <input
+            id="memory-search"
+            placeholder="Search memories…"
+          >
+        </div>
+
+        <div class="tabs">
+
+          <button
+            class="tab active"
+            data-status="ACTIVE"
+          >
+            Active
+          </button>
+
+          <button
+            class="tab"
+            data-status="UNCERTAIN"
+          >
+            Uncertain
+          </button>
+
+          <button
+            class="tab"
+            data-status="SUPERSEDED"
+          >
+            History
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div id="memory-stats" class="stats"></div>
+
+      <div id="memories" class="memory-grid"></div>
+
+    </section>
+
+
+    <!-- ADD CONTEXT -->
+    <section id="ingest" class="view">
+
+      <header class="page-head">
+
+        <div>
+          <div class="eyebrow">ADD CONTEXT</div>
+
+          <h2>Give Kivi something to remember</h2>
+
+          <p>
+            Paste a transcript.
+            Kivi decides whether it is durable enough to keep.
+          </p>
+        </div>
+
+      </header>
+
+
+      <div class="ingest-grid">
+
+        <div class="panel">
+
+          <div class="panel-label">
+            TRANSCRIPT
+          </div>
+
+          <textarea
+            id="t"
+            rows="14"
+            placeholder="Paste a transcript or a short note…"
+          ></textarea>
+
+          <div class="panel-foot">
+
+            <span>
+              Memory is selective by design.
+            </span>
+
+            <button id="process">
+              Process transcript
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div id="result" class="panel result">
+
+          <div class="empty-icon">✦</div>
+
+          <h3>
+            The decision will appear here.
+          </h3>
+
+          <p>
+            Kivi will show what it remembered,
+            rejected, or marked uncertain — and why.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+
+<!-- MEMORY DETAIL MODAL -->
+<div id="modal" class="modal hidden">
+
+  <div class="modal-backdrop"></div>
+
+  <div class="modal-card">
+
+    <button
+      id="modal-close"
+      class="close"
+    >
+      ×
+    </button>
+
+    <div id="modal-content"></div>
+
+  </div>
+
+</div>
+
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>
