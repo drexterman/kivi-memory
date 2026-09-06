@@ -49,14 +49,10 @@ pip install -r requirements.txt
 Copy `.env.example` to `.env` and set the key:
 
 ```text
-OPENAI_API_KEY=your_key_here
-OPENAI_BASE_URL=https://openrouter.ai/api/v1
-OPENAI_MODEL=mistralai/mistral-small-3.2-24b-instruct:free
+API_KEY=your_key_here
+BASE_URL=https://openrouter.ai/api/v1
+MODEL=mistralai/mistral-small-3.2-24b-instruct:free
 ```
-
-Do not commit the private key.
-
-The variable name is intentionally `OPENAI_API_KEY` because the application uses the OpenAI-compatible client interface against OpenRouter.
 
 ## 3. Initialize the database
 
@@ -119,14 +115,21 @@ For a larger corpus, pass the corresponding JSONL file using the same command fo
 The importer creates transcripts and invokes memory processing for each record.
 
 ## 7. Run evaluation
+For evaluation terminate any running session, clear the memory and restart using 
 
-With the server running:
+```bash
+python -m scripts.reset_db
+python -m scripts.init_db
+uvicorn app.main:app --reload
+```
+
+With the server running, in another terminal evalute using:
 
 ```bash
 python scripts/evaluate_corpus.py
 ```
 
-If the script accepts a corpus path in the current checkout, use the documented/default evaluation corpus supplied with the repository.
+The script accepts a corpus path in the current checkout, use --file flag to supply your own corpus in .jsonl format.
 
 The evaluation should be run against a fresh database when measuring a complete corpus from scratch. Preserve the resulting report as an artifact of the submitted evaluation run.
 
@@ -162,37 +165,3 @@ python -m scripts.init_db
 ```
 
 **Never use reset as part of the normal demo workflow.**
-
-## 10. Clean-room release check
-
-Before submitting a commit, verify this complete path:
-
-```text
-fresh clone
-  ↓
-create virtual environment
-  ↓
-pip install -r requirements.txt
-  ↓
-configure .env
-  ↓
-python -m scripts.init_db
-  ↓
-uvicorn app.main:app --reload
-  ↓
-open browser
-  ↓
-run primary demo
-  ↓
-inspect memory + provenance
-  ↓
-import corpus
-  ↓
-run evaluation
-  ↓
-inspect generated results
-  ↓
-reset only if needed
-```
-
-The evaluator will not be expected to repair undocumented setup problems.
